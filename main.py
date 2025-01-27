@@ -30,7 +30,7 @@ def checkParkingSpace(imgPro):
         else:
             color = (0, 0, 255)
             thickness = 2
-cd
+
         cv2.rectangle(img, pos, (pos[0] + width, pos[1] + height), color, thickness)
         
 
